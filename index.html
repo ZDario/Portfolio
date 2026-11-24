@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dario Žiga — Project Portfolio</title>
+  <meta name="description" content="Portfolio of mobile, web and Python projects by Dario Žiga — screenshots and video demos." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo">DŽ</span>
+      <ul id="nav-links"></ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Dario Žiga</h1>
+      <p class="subtitle">Full Stack Developer · Flutter · React · Python</p>
+      <p class="intro">
+        A selection of applications I have designed and built — from enterprise fleet management
+        and health-tracking mobile apps to a full-featured web application and data-visualization tooling.
+        Browse the screenshots and video demos below.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn btn-outline" href="mailto:zigadario@gmail.com">Contact me</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="projects"></main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Dario Žiga · Built with plain HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-prev" aria-label="Previous">&#10094;</button>
+    <figure>
+      <img id="lb-img" alt="" />
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <script src="assets/projects.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
